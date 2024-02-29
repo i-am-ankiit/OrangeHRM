@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T16:15:42 IST" name="Suite" finished-at="2024-02-29T16:15:56 IST" duration-ms="13217">
+  <suite started-at="2024-03-01T01:11:21 IST" name="Suite" finished-at="2024-03-01T01:11:48 IST" duration-ms="26863">
     <groups>
     </groups>
-    <test started-at="2024-02-29T16:15:42 IST" name="Test" finished-at="2024-02-29T16:15:56 IST" duration-ms="13217">
-      <class name="TestNG.OrangeHRM.login">
-        <test-method signature="login()[pri:0, instance:TestNG.OrangeHRM.login@74455848]" started-at="2024-02-29T16:15:42 IST" name="login" finished-at="2024-02-29T16:15:56 IST" duration-ms="13177" status="PASS">
+    <test started-at="2024-03-01T01:11:21 IST" name="Test" finished-at="2024-03-01T01:11:48 IST" duration-ms="26863">
+      <class name="TestNG.OrangeHRM.Attachments">
+        <test-method signature="login()[pri:0, instance:TestNG.OrangeHRM.Attachments@1e6454ec]" started-at="2024-03-01T01:11:21 IST" name="login" finished-at="2024-03-01T01:11:45 IST" duration-ms="23804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- TestNG.OrangeHRM.login -->
+        <test-method is-config="true" signature="Attachment()[pri:0, instance:TestNG.OrangeHRM.Attachments@1e6454ec]" started-at="2024-03-01T01:11:45 IST" name="Attachment" finished-at="2024-03-01T01:11:48 IST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Attachment -->
+      </class> <!-- TestNG.OrangeHRM.Attachments -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

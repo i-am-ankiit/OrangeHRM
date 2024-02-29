@@ -24,7 +24,7 @@ public class JobDetails {
 		
 		
 		
-		WebElement usernameField = driver.findElement(By.xpath("//input[@placeholder='Username']"));
+		WebElement usernameField = driver.findElement(By.xpath("//input[@placeholder='username']"));
 		usernameField.sendKeys("Admin");
 		System.out.println("Login ID Entered");
 		
@@ -45,9 +45,9 @@ public class JobDetails {
         
         WebElement joinedDate = driver.findElement(By.xpath("//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]"));
         if (joinedDate.getAttribute("readonly") != null || joinedDate.getAttribute("disabled") != null) {
-            System.out.println("Job Title field is read-only or disabled.");
+            System.out.println("Joined date field is read-only or disabled.");
         } else {
-            System.out.println("Job Title field is editable.");
+            System.out.println("Joined date field is editable.");
         }
         
         
