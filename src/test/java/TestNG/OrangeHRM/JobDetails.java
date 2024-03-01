@@ -24,7 +24,7 @@ public class JobDetails {
 		
 		
 		
-		WebElement usernameField = driver.findElement(By.xpath("//input[@placeholder='username']"));
+		WebElement usernameField = driver.findElement(By.xpath("//input[@name='username']"));
 		usernameField.sendKeys("Admin");
 		System.out.println("Login ID Entered");
 		

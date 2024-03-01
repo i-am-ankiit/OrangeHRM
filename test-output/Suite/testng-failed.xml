@@ -3,12 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestNG.OrangeHRM.immigration">
+      <class name="TestNG.OrangeHRM.login">
         <methods>
           <include name="login"/>
-          <include name="immigrationTest"/>
         </methods>
-      </class> <!-- TestNG.OrangeHRM.immigration -->
+      </class> <!-- TestNG.OrangeHRM.login -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
